@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********************************header area******************************************/
+/* for the header - background color, pading, center align text */
+
+/*fonts go first in css file*/
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Merriweather&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Merriweather&family=Montserrat:ital,wght@1,100&family=PT+Sans+Narrow&display=swap');
+
+/*apply the fonts*/
+h1, h2, footer{
+	font-style:oblique;
+}
+
+/*set the default font for page*/
+html{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+}
+
+header{
+	background-color:#47718C;
+	color:black;
+	text-align: center;
+	/* this adds space INSIDE of an element*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*adding space OUTSIDE of an element*/
+	margin-bottom: 0px;
+}
+
+body{
+	background-color:#285C7F;
+}
+
+
+/***************************section area***************************/
+section div{
+	/*all the default styles for all section*/
+	background-color:#32688C;
+	max-width:1200px;
+	/*text color*/
+	color:black;
+	/*automatically centers element on page*/
+	margin:0 auto;
+	padding: 50px;
+	/*this will make the section the size of ALL of the contents,even those floating*/
+	overflow:hidden;
+}
+
+section{
+	width:90%;
+	background-color:#47718C;
+	margin: 0px auto;
+}
+
+/*override with CLASS - more than one element to look the same but not ALL of the elements look that way*/
+.alternate{
+	background-color:#47718C;
+}
+section img{
+	float:inherit;
+	/*push text off the image*/
+	margin-right:10px
+}
+
+img{
+	float:inherit;
+	/*shortcut for values- top, right, bottom, left*/
+	margin: 0px 0px 10px 20px;
+}
+/***************************************footer**********************************/
+footer{
+	background-color:#285576;
+	/*white text, center the text, add padding*/
+      color:white;
+	  text-align: center;
+	  padding:50px;
+}
+
+/***************************************style links*****************************/
+
+/*default look of the link*/
+a:link{
+	color:red;
+}
+
+/*previously been to the location of the link*/
+a:visited{
+	color:black;
+}
+
+ /*when I have my mouse OVER the elements*/
+a:hover{
+	color:#182062;
+	/*get rid of the underline*/
+	text-decoration:none;
+}
+ /*when you are pressing DOWN on the elements*/
+a:active{
+	color:#0C2D42;
+}
+
+/***********************button styling*************************/
+
+button{
+	background-color:#0C2D42;
+	padding: 16px 32px;
+	/*change to a pointer finger*/
+	cursor:pointer;
+	/*default border - same color as background*/
+	border:2px solid #2A739B
+}
+
+/*********************************Navbar***********************/
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+a li {
+  display: block;
+  padding: 10px;
+  background-color:#061829;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#20435A;
+}
+
+nav li {
+  float: left;
+}
+
+nav li  {
+	border-right: 1px solid #32688C;
+}
+
+nav li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:link {
+	display: block;
+	color:#FBFBFB;
+	text-align: center;padding: 14px 16px;
+	text-decoration: none;
+	  /*add duration for a fader*/
+	transition-duration: 0.6s;
+}
+
+/* change the link color to #111 (black) on hover*/
+nav li a:hover {
+	background-color:#32688C;
+}
+
+class.sticky{
+	position: -webkit-sticky; /* safari */
+	position: sticky;
+	top: 0;
+}
+
+h1{
+	font-size:20px;
+	text-transform: uppercase;
+}
+
+
+/*write a rulest for the h2 that turn them blue*/
+h2{
+	font-size:20px;
+	text-transform: uppercase;
+	color:#091116;
+	/*change the font*/
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+h3{
+	font-size:20px;
+	text-transform: uppercase;
+	color:#091116;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+h4{
+	font-size:20px;
+	text-transform: uppercase;
+	color:#091116;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+h5{
+	font-size:20px;
+	text-transform: uppercase;
+	color:#091116;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+h6{
+	font-size:20px;
+	text-transform: uppercase;
+	color:#091116;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
