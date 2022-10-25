@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Fuzzy+Bubbles&family');
+
+#mashead{
+	background-image:url("../bioimages/purple_background.jfif");
+}
+
+#About{
+	background-color:#1F032A;
+}
+
+#Personality{
+	background-color:#0E0013;
+}
+
+#Portfolio{
+	background-color:#0E0013;
+}
+
+body{ 
+	background-color:#13031B;
+	font-size:16px;
+	text-transform:full-width;
+	font-family:'Merienda', cursive;
+}
+
+#Interests{
+	background-color:#1F032A;
+}
+
+#Concert pictures{
+	background-color:#1F032A;
+}
+
+#Fictional character{
+	background-color:#0E0013;
+}
+
+#footer{
+	background-image:url("../bioimages/coffin background.jfif");
+}
+
+/*default look of the link*/
+a:link{
+	color:purple;
+}
+
+/*previously been to the location of the link*/
+a:visited{
+	color:#943DCF;
+}
+
+ /*when I have my mouse OVER the elements*/
+a:hover{
+	color:#943DCF;
+	/*get rid of the underline*/
+	text-decoration:none;
+}
+ /*when you are pressing DOWN on the elements*/
+a:active{
+	color:#370249;
+}
+
+
+
+button{
+	background-color:#20032E;
+	padding: 16px 32px;
+	/*change to a pointer finger*/
+	cursor:pointer;
+	/*default border - same color as background*/
+	border:2px solid #13031B;
+}
+
+
+/************************Navbar****************************/
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+a li {
+	display: block;
+	padding: 10px;
+	background-color:#13031B;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#13031B;
+}
+
+nav li {
+	float:left;
+}
+
+nav li{
+	border-right: 1px solid #1F002E;
+}
+
+nav li{
+	display: block;
+	color: white;
+	text-align:right;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:link {
+	display: block;
+	color:#9165BC;
+	text-align: center;padding: 20px 16px;
+	text-decoration: none;
+	transition-duration: 0.6s;
+}
+
+nav li a:hover {
+	background-color:#15031E;
+}
+
+class.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+h1{
+	font-size:30px;
+	text-transform:full-width;
+	color:#A570C0;
+	font-family:'Fuzzy Bubbles', cursive;
+} 
+
+h2{
+	font-size:30px;
+	text-transform:full-width;
+	color:#A570C0;
+	/*change the font*/
+	font-family:'Fuzzy Bubbles', cursive;
+}
+
+h3{
+	font-size:30px;
+	text-transform:full-width;
+	color:#A570C0;
+	font-family:'Fuzzy Bubbles', cursive;
+}
+
+h4{
+    font-size:30px;
+	text-transform:full-width;
+	color:#A570C0;
+	font-family:'Fuzzy Bubbles', cursive;
+}
+
+h5{
+	font-size:30px;
+	text-transform:full-width;
+	color:#A570C0;
+	font-family:'Fuzzy Bubbles' , cursive;
+}
+
+h6{
+	font-size:30px;
+	text-transform:full-width;
+	color:#A570C0;
+	font-family:'Fuzzy Bubbles' , cursive;
+}
