@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*if you want a different look in each header on the different pages, then use an ID rather than just header*/
+#homeMasthead{
+/*    background-color: #102E45;*/
+    background-image: url("../images/backgrounds/Convocation-mobile.jpg");
+/*make sure the whole element is covered and stops tiling*/
+    background-size:cover;
+/*prioritizes a certain part of the pciture to be shown*/
+    background-position: center;
+}
+
+#contactMasthead{
+    background-image: url("../images/backgrounds/dog.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+/*set the default font size- MOBILE FIRST*/
+/*Overridding a BS4 clss with your own style*/
+.display-1{
+    font-size: 32pt; 
+}
+
+h2{
+    color: #270732;
+}
+
+.bg-dark{
+    background-color: purple, !important;
+}
+
+/*class to define the height of any element it is added to*/
+.height80{
+    height:80vh;
+}
+
+footer{
+    background-color: #32ACA6;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #2F4B70;
+}
+
+a:link, a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: darkblue;
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+        .display-1{
+        font-size: 60pt; 
+    }
+/*}closes smalle query*/
+
+
+
+
+/* medium devices */
+@media only screen and (min-width: 768px) {
+       #homeMasthead{
+           background-image: url("../images/backgrounds/black-cat.jpg");
+    }
+    
+        .display-1{
+        font-size: 80pt; 
+        }
+    
+}
