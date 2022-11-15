@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+/*if you want a different look in each header on the different pages, then use an ID rather than just header*/
+#homeMasthead{
+    background-image: url("../images/Calgary.jpg");
+	/*make sure the whole element is covered and stops tiling*/
+	background-size:cover;
+	/*prioritizes a certain part of the picture to be shown*/
+	background-position: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#AttractionsMasthead{
+	background-image:url("../images/pexels-edwin-soto-2884693.jpg");
+	background-size:cover;
+	background-position:center;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+#EconomyMasthead{
+	background-image: url("../images/economy4.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#PeopleMasthead{
+	background-image:url("../images/people in calgary 2.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#GeographyMasthead{
+	background-image:url("../images/Geography.jfif");
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.display-1{
+	font-size: 32pt;
+}
+
+#about{
+	background-color: #111952;
+	padding-bottom:30px;
+}
+
+#Attractions{
+	background-color: #111952;
+	padding-bottom: 30px;
+	
+}
+
+#Hotels{
+	background-color: #111952;
+	padding-bottom: 30px;
+}
+
+body{
+	background-color:#02031D;
+	font-size:20px;
+	text-transform:full-width;
+	font-family:'Cormorant Garamond', serif
+		'Mukta', sans-serif;
+}
+
+h1{
+	color:#8F77F5;
+	font-size:40px;
+	text-transform:full-width;
+	font-family:'Mukta', sans-serif;
+		
+}
+
+h2{
+	color:#4446EF;
+	font-size:40px;
+	text-transform:full-width;
+	font-family:'Mukta', sans-serif;
+}
+
+
+h3{
+	color:#4446EF;
+	font-size:40px;
+	text-transform:full-width;
+	font-family:'Mukta', sans-serif;
+}
+
+h4{
+	color:#4446EF; 
+	font-size:40px;
+	text-transform:full-width;
+	font-family:'Mukta', sans-serif;
+}
+.bg-dark{
+	background-color: #0C0E2E;
+}
+
+.height80{
+	height:30vh;
+}
+footer{
+	background-color: #01012B;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	color: #E9DEDE;
+}
+
+a:link, a:visted{
+	color: blue;
+}
+
+a:hover{
+	color: darkblue;
+}
+
+@media only screen and (min-width: 768px) {
+	#homeMasthead{
+		background-image: url("../images/Calgary.jpg");
+	}
+	 
+	.display-1{
+		font-size: 80pt;
+	}
+}
